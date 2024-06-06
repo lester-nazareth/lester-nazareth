@@ -1,0 +1,9 @@
+package whirlybird_protocols;
+
+message PilotInput {
+  required uint32 left_stick_x = 1;
+  required uint32 left_stick_y = 2;
+  required uint32 right_stick_y = 3;
+  required uint32 right_stick_x = 4;
+  required uint32 triggers = 5;
+}
